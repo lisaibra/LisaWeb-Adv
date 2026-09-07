@@ -1,0 +1,28 @@
+h1{
+    color: blue;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+p{
+ text-indent: 60px;
+text-align: center;
+}
+h2{
+    text-decoration: overline;
+}
+ h3{
+    text-decoration: line-through;
+ }
+
+ h4{
+    text-decoration: underline;
+ }
+a{
+    text-decoration: none;
+}
+.myelement{
+    color: blue
+}
+.myelement{
+    color: red
+}
