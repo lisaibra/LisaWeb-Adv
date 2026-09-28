@@ -21,3 +21,9 @@
     animation-delay: 6s;
 }
 
+@keyframe lisa {
+    to{
+        width: 200px;
+        height:200px;
+    }
+}
