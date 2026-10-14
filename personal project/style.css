@@ -1,14 +1,100 @@
-ul{
-    display: flex;
-    list-style: none;
-    background-color: lightpink;
-    height: 60px;
-    align-items: center;
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8af;
 }
 
-li a{
-    color: white;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightpink;
+    padding:5px 20px;
+}
+
+.navbar h2{
+    color:black;
+}
+
+.navbar li{
+    margin-left: 20px;
+}
+
+.navbar a{
+    color:black;
     text-decoration: none;
     font-size: 16px;
-    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color:#d46a91;
+    margin-top: 60px;
+    font-size:35px;
+}
+p{
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+.white-cards{
+    display: flex;justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50p;
+}
+
+.card{
+    background-color: white;
+    padding:20px;
+    width: 180px;
+    border-radius: 15px;
+}
+
+.card h3{
+    color: palevioletred;
+}
+
+.card p{
+    color:grey;
+    font-size:15px;
+}
+
+body{
+    background-color: #fCE4EC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1{
+    color:palevioletred;
+}
+
+a {
+    text-decoration: none;
+}
+
+.why{
+    background-color: white;
+    margin: 40px;
+    padding:25px;
+    text-align: center;
+    border-radius: 15px;
+}
+.why h2 {
+    color:#d94f7b;
+    font-size: 28px;
+
+}
+.why p {
+    color:grey;
+    font-size: 17px;
 }
