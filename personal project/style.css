@@ -98,3 +98,103 @@ a {
     color:grey;
     font-size: 17px;
 }
+
+.about{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:50px;
+    gap:40px;
+}
+.about-text{
+    width: 50%;
+}
+.small-title{
+    color:palevioletred;
+    letter-spacing: 4px;
+}
+.about-text h1{
+    color:lightpink;
+    font-size: 45px;
+    margin:15px 0;
+}
+.about-text h3{
+    color:#9B6178;
+    font-size: 18px;
+}
+.about-text p{
+    color:#765766;
+    font-size: 17px;
+}
+.about-image{
+    width: 280;
+    height: 350;
+    display: block;
+    margin: auto;
+}
+.about-image img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.why-choose{
+    text-align: center;
+    padding: 40px 0;
+    background-color:lightgoldenrodyellow;
+}
+.why-choose h2{
+    color:#d982a0;
+    font-size: 30px;
+}
+.why-description{
+    color: #777;
+    margin-bottom: 30px;
+}
+.why-cards{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.why-card{
+    flex: 1;
+    background-color: #f9e4eb;
+    padding: 20px;
+    border-radius: 12px;
+}
+.why-card h3 {
+    color:#bd6482;
+    font-size:17px;
+}
+
+.why-cards p{
+    color:#555;
+    font-size:15px;
+    line-height: 1.6;
+}
+ .perfumes{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 40px;
+ }
+
+ .perfume{
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+ }
+
+ .perfume img{
+    width: 120px;
+ }
+ .perfume h2{
+    color: #d94f7b;
+ }
+  .perfume h3{
+    color: #d94f7b;
+ }
